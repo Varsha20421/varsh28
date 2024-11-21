@@ -1,0 +1,18 @@
+9. Analyse the code, identify the issues
+
+#include <stdio.h>
+int main()
+{
+float cnt = 0, num = 1000;
+do
+{
+printf ("\n%d\n%d", num,cnt);
+num /= cnt;
+} while (cnt --); /* End of while */
+return 0;
+}
+
+Errors:
+1. in printf statement used %d, but num and cnt are of float type.So we have to use %f.
+2. num is divided by cnt,but cnt initialized to 0,it will result divison by zero error
+3. in while condition, c-- is used. It goes to infite loop.
