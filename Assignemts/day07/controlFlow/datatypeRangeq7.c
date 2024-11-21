@@ -18,5 +18,5 @@ int main()
 
 /*
 Above code is for factorial of a number. if number = 255.factorial of 255 will be large having 505 digits. But in the above code fact is initialized with int datatype, whose range is 4 bytes .So it cant hold this value.
-To fix it, we need to initialize this with long long int datatype.
+To fix it, we need to define an array with large size like array[1000].
 */
