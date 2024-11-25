@@ -1,3 +1,29 @@
+/*
+Q1.
+
+The first line contains an integer N, denoting the total number of books.
+Next, N lines contain a string that denotes "title", "author", and "genre" separated by a comma.
+Note: In code stub, you get 2D array books: where the 0th column denotes the title,
+      the 1st column denotes the author, and the 2nd column denotes the genre
+
+Input:
+
+4
+The Great Gatsby,F. Scott Fitzgerald,fiction
+The Diary of a Young Girl,Anne Frank,non-fiction
+Harry Potter and the Philosophers Stone,J.K. Rowling,children
+The Catcher in the Rye,J.D. Salinger,fiction
+
+Output:
+Harry Potter and the Philosophers Stone
+The Great Gatsby
+The Catcher in the Rye
+The Diary of a Young Girl
+
+Explanation
+
+The sorted genre is: [children, fiction, fiction, non-fiction].
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -16,10 +42,14 @@ void bubbleSort(char ***books, int N) {
         }
     }
 }
+
 int main() {
     char ***Books = NULL;
     int i,j;
-    int noBooks=2,row=5,col=1024;
+    int noBooks;
+    int row=5,col=1024;
+    printf("Enter no of books:\n");
+    scanf("%d",&noBooks);
     //creating pointer of arrays which points to different names
     Books = (char ***)malloc(noBooks*sizeof(char **)); 
     //allocate mem for each string and assign address of each string to each pointer(names) returned by malloc
