@@ -1,0 +1,83 @@
+//greatest of 5 numbers
+#include <stdio.h>
+int main()
+{
+	int a=58,b=78,c=993,d=41,e=50;
+	if(a>b)
+	{
+		if(a>c)
+		{	
+			if(a>d)
+			{
+				if(a>e)
+					printf("a");
+				else
+					printf("e");
+			}
+			else
+			{
+				if(d>e)
+					printf("d");
+				else
+					printf("e");
+			}
+		}
+		else
+		{
+			if(c>d)
+			{
+				if(c>e)
+					printf("c");
+				else
+					printf("e");
+			}
+			else
+			{
+				if(d>e)
+					printf("d");
+				else
+				printf("e");
+			}	
+		}	
+	}
+
+	else
+	{
+		if(b>c)
+		{
+			if(b>d)
+			{
+				if(b>e)
+					printf("b");
+				else
+					printf("e");
+			}
+			else
+			{
+				if(d>e)
+					printf("d");
+				else
+					printf("e");
+			}
+		}
+		else
+		{
+			if(c>d)
+			{
+				if(c>e)
+					printf("c");
+				else
+					printf("e");
+			}
+			else
+			{
+				if(d>e)
+					printf("d");
+				else
+					printf("e");
+			}
+		}
+	}
+		
+	return 0;
+}

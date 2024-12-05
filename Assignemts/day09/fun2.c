@@ -11,7 +11,8 @@ int main()
     printf("Enter string");
     scanf("%s",str);
    // str[strlen(str)-1]='\0';
-    read_extract_characters(str);
+	char str1= read_extract_characters(str);
+	printf("%s\n",str);
     return 0;
 }
 
@@ -24,5 +25,5 @@ char * read_extract_characters(char *str)
         str1[j]=str[i];
     }
    // str1[strlen(str1)-1]='\0';
-    printf("Array: %s ",str1);
+    return *str1;
 }
