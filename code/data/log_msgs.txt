@@ -1,0 +1,93 @@
+[INFO]
+Date: 18/12/2024 Time: 07:14:10 userNumber: 9640027582 - User trying to register 
+
+[FATAL]
+Date: 18/12/2024 Time: 07:14:10 userNumber: 9640027582 - Error opening file to read 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:16:12 userNumber: 9640027582 - User register successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 07:16:18 userNumber: 9640027582 - User logged in and exited 
+
+[INFO]
+Date: 18/12/2024 Time: 07:16:32 userNumber: 9640027582 - User trying to login 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:16:40 userNumber: 9640027582 - User logged in successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 07:17:31 userNumber: 9640027582 - Waiting to lift the call 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:17:36 userNumber: 9640027582 - Call forwarding.... 
+
+[INFO]
+Date: 18/12/2024 Time: 07:20:24 userNumber: 9390689724 - User trying to register 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:20:57 userNumber: 9390689724 - User register successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 07:22:27 userNumber: 8073979748 - User trying to register 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:22:38 userNumber: 8073979748 - User register successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 07:23:44 userNumber: 1234567891 - User trying to register 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:24:06 userNumber: 1234567891 - User register successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 07:24:40 userNumber: 1234567891 - User trying to register 
+
+[WARNING]
+Date: 18/12/2024 Time: 07:24:40 userNumber: 1234567891 - Usernumber already taken while registering 
+
+[INFO]
+Date: 18/12/2024 Time: 07:24:46 userNumber: 1234567891 - User trying to login 
+
+[DEBUG]
+Date: 18/12/2024 Time: 07:24:47 userNumber: 1234567891 - User logged in successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 09:34:39 userNumber: 9640027582 - Waiting to lift the call 
+
+[DEBUG]
+Date: 18/12/2024 Time: 09:34:44 userNumber: 9640027582 - Call forwarding.... 
+
+[INFO]
+Date: 18/12/2024 Time: 09:35:06 userNumber: 9640027582 - User trying to login 
+
+[DEBUG]
+Date: 18/12/2024 Time: 09:35:09 userNumber: 9640027582 - User logged in successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 09:35:12 userNumber: 9640027582 - User deactivated to forward call 
+
+[INFO]
+Date: 18/12/2024 Time: 09:35:20 userNumber: 9640027582 - User is not active to forward the call 
+
+[INFO]
+Date: 18/12/2024 Time: 09:39:59 userNumber: 9640027582 - User is not active to forward the call 
+
+[INFO]
+Date: 18/12/2024 Time: 09:41:29 userNumber: 9640027582 - User is not active to forward the call 
+
+[INFO]
+Date: 18/12/2024 Time: 09:47:08 userNumber: 9640027582 - User is not active to forward the call 
+
+[INFO]
+Date: 18/12/2024 Time: 09:56:46 userNumber: 9640027582 - User trying to login 
+
+[WARNING]
+Date: 18/12/2024 Time: 09:56:50 userNumber: 9640027582 - Password mismatched while logging 
+
+[DEBUG]
+Date: 18/12/2024 Time: 09:56:55 userNumber: 9640027582 - User logged in successfully 
+
+[INFO]
+Date: 18/12/2024 Time: 09:56:59 userNumber: 9640027582 - User activated to forward call 
+
